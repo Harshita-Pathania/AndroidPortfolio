@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Certifications"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp" />
+
+        <!-- Certification 1: MongoDB -->
+        <ImageView
+            android:id="@+id/certImage1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/img"
+            android:scaleType="fitCenter"
+        android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/certDetails1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Introduction to MongoDB by MongoDB\nDate: July 2024\nSkills Learned: NoSQL, Database Design"
+            android:padding="8dp" />
+
+        <!-- Certification 2: Generative AI -->
+        <ImageView
+            android:id="@+id/certImage2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/img_1"
+            android:scaleType="fitCenter"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/certDetails2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Introduction to Generative AI by Google Cloud\nDate: May 2024\nSkills Learned: AI, Machine Learning, NLP"
+            android:padding="8dp" />
+
+        <!-- Certification 3: Python Coder -->
+        <ImageView
+            android:id="@+id/certImage3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/img_2"
+            android:scaleType="fitCenter"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/certDetails3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Python 4-star Coder in HackerRank\nDate: March 2023\nSkills Learned: Python Programming"
+            android:padding="8dp" />
+
+        <!-- Certification 4: C Coder -->
+        <ImageView
+            android:id="@+id/certImage4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/img_3"
+            android:scaleType="fitCenter"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/certDetails4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C 4-star Coder in HackerRank\nDate: March 2023\nSkills Learned: C Programming"
+            android:padding="8dp" />
+
+        <!-- Certification 5: IBM Full Stack -->
+        <ImageView
+            android:id="@+id/certImage7"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/img_4"
+            android:scaleType="fitCenter"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/certDetails7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CyberShikshaa for Fundamentals by Microsoft\nDate: February 2023\nSkills Learned: Cybersecurity Basics"
+            android:padding="8dp" />
+
+        <!-- Certification 6: Full Stack Developer MOOC -->
+        <ImageView
+            android:id="@+id/certImage6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/img_5"
+            android:scaleType="fitCenter"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/certDetails6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Become a Full Stack Web Developer MOOC on LinkedIn Learning\nDate: January 2023\nSkills Learned: Full Stack Web Development"
+            android:padding="8dp" />
+
+        <!-- Back to Main Page Button -->
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back to Main Page"
+            android:layout_marginTop="20dp"
+            android:padding="12dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Projects"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp" />
+
+        <!-- Project 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Network Anomaly Detection System"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/network_anomaly_detection" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Technologies Used: Python, scikit-learn, Matplotlib, Seaborn"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Objective: To detect and visualize anomalies in network traffic using machine learning techniques."
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Applications: Cybersecurity, Network Monitoring"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learning Outcomes: Improved understanding of machine learning algorithms and their application in anomaly detection."
+            android:paddingBottom="4dp" />
+
+        <!-- GitHub Button for Project 1 -->
+        <Button
+            android:id="@+id/githubBtnProject1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View on GitHub"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Project 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Stock Price Prediction Model"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/stock_price_prediction" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Technologies Used: Python, scikit-learn, Matplotlib, Seaborn"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Objective: Developed a system to predict and visualize stock prices using machine learning techniques."
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Applications: Financial Analysis, Investment Planning"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learning Outcomes: Enhanced skills in financial modeling and forecasting using ML."
+            android:paddingBottom="4dp" />
+
+        <!-- GitHub Button for Project 2 -->
+        <Button
+            android:id="@+id/githubBtnProject2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View on GitHub"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Project 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. React Tic-Tac-Toe Game"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/react_tic_tac_toe" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Technologies Used: React.js, JavaScript"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Objective: Created a Tic-Tac-Toe game with support for single and two-player modes."
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Applications: Game Development, User Interaction"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learning Outcomes: Gained experience in front-end development and state management."
+            android:paddingBottom="4dp" />
+
+        <!-- GitHub Button for Project 3 -->
+        <Button
+            android:id="@+id/githubBtnProject3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View on GitHub"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Project 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. E-Commerce Website"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/e_commerce_website" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Technologies Used: HTML, CSS, JavaScript, Python (Flask), MySQL"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Objective: Developed core functionality of an e-commerce platform."
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Applications: Online Shopping, Payment Processing"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learning Outcomes: Improved skills in full-stack development and database integration."
+            android:paddingBottom="4dp" />
+
+        <!-- GitHub Button for Project 4 -->
+        <Button
+            android:id="@+id/githubBtnProject4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View on GitHub"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Project 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. AI Image Captioning and Text Extraction"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/image_captioning" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Technologies Used: OpenAI GPT 3.5 Turbo, Streamlit API, Python, OCR Tesseract"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Objective: Automated text extraction from images and generated captions using AI."
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Applications: Document Processing, Content Creation"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learning Outcomes: Knowledge of AI techniques for image processing and text generation."
+            android:paddingBottom="4dp" />
+
+        <!-- GitHub Button for Project 5 -->
+        <Button
+            android:id="@+id/githubBtnProject5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View on GitHub"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Back to Main Page Button -->
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back to Main Page"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:padding="12dp" />
+    </LinearLayout>
+</ScrollView>

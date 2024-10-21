@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/photo1"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:scaleType="fitCenter"
+                android:layout_columnWeight="1"
+                android:src="@drawable/img" />
+
+            <ImageView
+                android:id="@+id/photo2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:scaleType="fitCenter"
+                android:layout_columnWeight="1"
+                android:src="@drawable/img_1" />
+
+            <ImageView
+                android:id="@+id/photo3"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:scaleType="fitCenter"
+                android:layout_columnWeight="1"
+                android:src="@drawable/img_2" />
+
+            <ImageView
+                android:id="@+id/photo4"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:scaleType="fitCenter"
+                android:layout_columnWeight="1"
+                android:src="@drawable/network_anomaly_detection" />
+
+            <ImageView
+                android:id="@+id/photo5"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:scaleType="fitCenter"
+                android:layout_columnWeight="1"
+                android:src="@drawable/image_captioning" />
+
+            <ImageView
+                android:id="@+id/photo6"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:scaleType="fitCenter"
+                android:layout_columnWeight="1"
+                android:src="@drawable/e_commerce_website" />
+
+        </GridLayout>
+
+        <!-- Back to Main Page Button -->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back to Main Page"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center" /> <!-- Center the button horizontally -->
+
+    </LinearLayout>
+</ScrollView>

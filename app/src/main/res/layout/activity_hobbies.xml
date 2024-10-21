@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hobbies"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp" />
+
+        <!-- Hobby 1: Reading -->
+        <ImageView
+            android:id="@+id/hobbyImage1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/reading_hobby"
+            android:scaleType="fitCenter"
+        android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/hobbyDetails1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reading\nGenres: Fiction, Non-Fiction, Sci-Fi\nSkills Developed: Critical Thinking, Imagination"
+            android:padding="8dp" />
+
+        <!-- Hobby 2: Painting -->
+        <ImageView
+            android:id="@+id/hobbyImage2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/painting_hobby"
+            android:scaleType="fitCenter"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/hobbyDetails2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Painting\nStyles: Abstract, Landscape\nSkills Developed: Creativity, Patience"
+            android:padding="8dp" />
+
+        <!-- Hobby 3: Dancing -->
+        <ImageView
+            android:id="@+id/hobbyImage3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/dancing_hobby"
+            android:scaleType="fitCenter"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/hobbyDetails3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dancing\nStyles: Classical, Freestyle\nSkills Developed: Coordination, Expression"
+            android:padding="8dp" />
+
+        <!-- Back to Main Page Button -->
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back to Main Page"
+            android:layout_marginTop="20dp"
+            android:padding="12dp" />
+    </LinearLayout>
+</ScrollView>
