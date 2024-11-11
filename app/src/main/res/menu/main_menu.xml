@@ -13,4 +13,8 @@
         android:id="@+id/menu_feedback"
         android:title="Feedback"
         app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="always" />
 </menu>

@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.ImageButton
+import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import com.example.a2demo.AcademicsActivity
@@ -54,22 +56,46 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
+
             R.id.menu_email -> {
-                val emailIntent = Intent(Intent.ACTION_SENDTO)
-                emailIntent.data = Uri.parse("mailto:harshita.pathania03@gmail.com")
-                startActivity(emailIntent)
-                return true
+                val builder = AlertDialog.Builder(this)
+                builder.setTitle("E-mail")
+                builder.setCancelable(false)
+                builder.setMessage("Are you sure you want to switch apps ?")
+                builder.setPositiveButton("Yes") { _, _ ->
+                    val emailIntent = Intent(Intent.ACTION_SENDTO)
+                    emailIntent.data = Uri.parse("mailto:harshita.pathania03@gmail.com")
+                    startActivity(emailIntent)
+                }
+                builder.setNegativeButton("No") { dialog, _ -> dialog.dismiss() }
+                builder.create().show()
             }
             R.id.menu_contact -> {
+                val builder = AlertDialog.Builder(this)
+                builder.setTitle("Contact")
+                builder.setCancelable(false)
+                builder.setMessage("Are you sure you want to switch apps ?")
+                builder.setPositiveButton("Yes") { _, _ ->
+                    val callIntent = Intent(Intent.ACTION_DIAL)
+                    callIntent.data = Uri.parse("tel:+918130604956")
+                    startActivity(callIntent)
+                }
+                builder.setNegativeButton("No") { dialog, _ -> dialog.dismiss() }
+                builder.create().show()
 
-                val callIntent = Intent(Intent.ACTION_DIAL)
-                callIntent.data = Uri.parse("tel:+918130604956")
-                startActivity(callIntent)
-                return true
             }
             R.id.menu_feedback -> {
                 startActivity(Intent(this, FeedbackActivity::class.java))
                 return true
+            }
+            R.id.logout -> {
+                val builder = AlertDialog.Builder(this)
+                builder.setTitle("Exit")
+                builder.setCancelable(false)
+                builder.setMessage("Are you sure you want to exit?")
+                builder.setPositiveButton("Yes") { _, _ -> finish() }
+                builder.setNegativeButton("No") { dialog, _ -> dialog.dismiss() }
+                builder.create().show()
             }
         }
         return super.onOptionsItemSelected(item)
